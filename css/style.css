@@ -1,6 +1,13 @@
 @font-face {
-		    font-family: 'Raleway-Bold';
-		    src: url('../fonts/Raleway-Bold.ttf')format('truetype');
+		    font-family: 'Sweet Sans Pro', 'Arial';
+		    src: url('../fonts/SweetSansPro-Heavy.eot');
+		    src: url('../fonts/SweetSansPro-Heavy.eot?#iefix') format('embedded-opentype'),
+		        url('../fonts/SweetSansPro-Heavy.woff2') format('woff2'),
+		        url('../fonts/SweetSansPro-Heavy.woff') format('woff'),
+		        url('../fonts/SweetSansPro-Heavy.ttf') format('truetype'),
+		        url('../fonts/SweetSansPro-Heavy.svg#SweetSansPro-Heavy') format('svg');
+		    font-weight: bold;
+		    font-style: normal;
 		    font-family: 'WorkSans-Light';
 		    src: url('../fonts/WorkSans-Light.otf') format('truetype');
 		         
@@ -15,14 +22,15 @@
 			}
 
 			h2{
-				font-family: 'Arial';
+				font-family: 'Sweet Sans Pro';
+				font-weight: 900;
 				/*background-color: blue;*/
 				padding-top: 30px;
 				color: #2f6db4;
 			}
 
 			h4{
-				font-family: 'Arial';
+				font-family: 'Sweet Sans Pro';
 
 			}
 
@@ -83,7 +91,7 @@
 
 			#ul_menu_principale li a{
 				text-decoration: none;
-				font-family: 'Arial';
+				font-family: 'Sweet Sans Pro';
 				font-weight: bold;
 				font-size: 1.6em;
 				color: black;
@@ -464,7 +472,7 @@ default width = 800/5 = 160px;
 
 .accordian li a h3{
 	color: #2f6db4;
-	font-family: 'Arial';
+	font-family: 'Sweet Sans Pro';
 }
 
 .accordian li img {
